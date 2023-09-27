@@ -120,6 +120,16 @@ header {
     background-repeat: no-repeat;
 }
 
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.icons i {
+    color: #fff;
+}
+
 /* footer section */
 footer {
     width: 100%;

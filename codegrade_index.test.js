@@ -95,7 +95,7 @@ describe("index.html", () => {
   });
 
   it("footerda bir input ve button verilen metinle tespit edildi", () => {
-    const footerInput = container.querySelector("footer input");
+    const footerInput = container.querySelector("footer div input");
     const footerButton = container.querySelector("footer button");
 
     expect(footerInput).not.toBe(null || undefined);
